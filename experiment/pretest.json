@@ -2,35 +2,52 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What is a dynamic array in Solidity?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "An array with a fixed size",
+        "b": "An array that can grow or shrink dynamically",
+        "c": "An array that only stores strings",
+        "d": "An array that cannot store integers"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect: A dynamic array doesn't have a fixed size.",
+        "b": "Correct: A dynamic array can grow or shrink dynamically.",
+        "c": "Incorrect: A dynamic array can store any supported data type, not just strings.",
+        "d": "Incorrect: A dynamic array can store integers if defined with type `uint` or `int`."
       },
-      "correctAnswer": "a",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "What is a struct in Solidity?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "A data type to store single variables",
+        "b": "A contract that inherits from another contract",
+        "c": "A user-defined data type for grouping variables",
+        "d": "A predefined library in Solidity"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect: Structs are used to group multiple variables, not single variables.",
+        "b": "Incorrect: This describes inheritance, not structs.",
+        "c": "Correct: A struct is a user-defined data type to group related variables.",
+        "d": "Incorrect: Structs are not libraries."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the key-value structure used in Solidity?",
+      "answers": {
+        "a": "Array",
+        "b": "Struct",
+        "c": "Mapping",
+        "d": "Library"
+      },
+      "explanations": {
+        "a": "Incorrect: Arrays store values sequentially, not in key-value pairs.",
+        "b": "Incorrect: Structs group variables but don't use key-value pairs.",
+        "c": "Correct: Mappings use key-value pairs to store data.",
+        "d": "Incorrect: Libraries provide reusable code but aren't key-value structures."
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
