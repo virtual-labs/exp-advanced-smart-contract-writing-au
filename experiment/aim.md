@@ -1,3 +1,2 @@
 ### Aim of the experiment
-The main objective of this experiment is to Perform simple tasks using solidity
-- Explore struct,array and mapping
+<p>The aim of this experiment is to understand and implement fundamental data structures in Solidity, including arrays, structs, and mappings. Through this, learners will explore how to store, retrieve, and manipulate data within smart contracts. By performing operations such as adding elements to arrays, defining and using structs, and mapping key-value pairs</p>
