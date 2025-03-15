@@ -2,38 +2,55 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "How do you add a value to a dynamic array in Solidity?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Using the `push` function",
+        "b": "By assigning a value directly to an index",
+        "c": "By calling the `addValue` library",
+        "d": "By using the `insert` function"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Correct: Use the `push` function to add a value to the end of a dynamic array.",
+        "b": "Incorrect: Direct assignment requires a valid index.",
+        "c": "Incorrect: There is no `addValue` library in Solidity.",
+        "d": "Incorrect: The `insert` function is not used in Solidity arrays."
       },
       "correctAnswer": "a",
-      "difficulty": "beginner"
+      "difficulty": "intermediate"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Which of the following correctly initializes a struct in Solidity?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Person memory person = Person('Alice', 25);",
+        "b": "struct Person = Person('Alice', 25);",
+        "c": "Person public person = ('Alice', 25);",
+        "d": "Person public person = Person({name: 'Alice', age: 25});"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect: The `memory` keyword is misplaced.",
+        "b": "Incorrect: This is not the correct syntax for initializing a struct.",
+        "c": "Incorrect: Missing the `Person` keyword in struct initialization.",
+        "d": "Correct: This is the proper way to initialize a struct using named parameters."
       },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
+      "correctAnswer": "d",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "What happens if you access a key in a mapping that doesn’t exist?",
+      "answers": {
+        "a": "It throws an error.",
+        "b": "It returns the default value of the value type.",
+        "c": "It creates the key-value pair automatically.",
+        "d": "It removes the key from the mapping."
+      },
+      "explanations": {
+        "a": "Incorrect: Accessing a non-existent key doesn't throw an error.",
+        "b": "Correct: Mappings return the default value of the value type (e.g., `0` for integers).",
+        "c": "Incorrect: The key-value pair is not created automatically.",
+        "d": "Incorrect: Accessing a key doesn't remove it from the mapping."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
     }
   ]
 }
