@@ -51,6 +51,57 @@
       },
       "correctAnswer": "b",
       "difficulty": "intermediate"
+    },
+    {
+      "question": "Which feature of Remix IDE allows step-by-step execution of smart contracts to identify issues?",
+      "answers": {
+        "a": "Compiler",
+        "b": "Debugger",
+        "c": "File Explorer",
+        "d": "Plugin Manager"
+      },
+      "explanations": {
+        "a": "Incorrect: The compiler only translates Solidity into bytecode.",
+        "b": "Correct: The debugger allows step-by-step execution to track variables and fix issues.",
+        "c": "Incorrect: The file explorer is for file management.",
+        "d": "Incorrect: Plugins extend functionality but don’t provide debugging directly."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which Solidity feature is used to group multiple related variables into one unit?",
+      "answers": {
+        "a": "Mapping",
+        "b": "Array",
+        "c": "Struct",
+        "d": "Modifier"
+      },
+      "explanations": {
+        "a": "Incorrect: A mapping stores key–value pairs.",
+        "b": "Incorrect: An array stores sequential data of the same type.",
+        "c": "Correct: A struct groups different data types together as a custom type.",
+        "d": "Incorrect: A modifier is used for access control and validation."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following is NOT a feature of Solidity?",
+      "answers": {
+        "a": "Static Typing",
+        "b": "Inheritance",
+        "c": "Event Logging",
+        "d": "Automatic Garbage Collection"
+      },
+      "explanations": {
+        "a": "Incorrect: Solidity enforces static typing.",
+        "b": "Incorrect: Solidity supports inheritance for contracts.",
+        "c": "Incorrect: Solidity allows event logging for DApp communication.",
+        "d": "Correct: Solidity does not have automatic garbage collection; storage must be managed explicitly."
+      },
+      "correctAnswer": "d",
+      "difficulty": "intermediate"
     }
   ]
 }
