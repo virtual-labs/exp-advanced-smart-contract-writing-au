@@ -51,6 +51,57 @@
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
+    },
+    {
+      "question": "Which tool is commonly used to write and deploy Solidity smart contracts?",
+      "answers": {
+        "a": "Remix IDE",
+        "b": "Visual Studio Code only",
+        "c": "Truffle without Remix",
+        "d": "Python interpreter"
+      },
+      "explanations": {
+        "a": "Correct: Remix IDE is widely used for writing, compiling, and deploying Solidity contracts.",
+        "b": "Incorrect: VS Code can be used but requires additional setup, unlike Remix.",
+        "c": "Incorrect: Truffle is a framework, but Remix IDE is simpler for beginners.",
+        "d": "Incorrect: Python is not used for compiling Solidity contracts."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "In Solidity, which keyword is used to define a new contract?",
+      "answers": {
+        "a": "struct",
+        "b": "mapping",
+        "c": "contract",
+        "d": "function"
+      },
+      "explanations": {
+        "a": "Incorrect: `struct` is used for defining custom data structures.",
+        "b": "Incorrect: `mapping` is used for key-value pairs.",
+        "c": "Correct: `contract` is used to define a new smart contract.",
+        "d": "Incorrect: `function` defines behavior inside a contract, not the contract itself."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following is a feature of Solidity?",
+      "answers": {
+        "a": "Event logging",
+        "b": "Automatic garbage collection",
+        "c": "Dynamic typing",
+        "d": "No support for structs"
+      },
+      "explanations": {
+        "a": "Correct: Solidity supports event logging for DApp communication.",
+        "b": "Incorrect: Solidity does not have garbage collection.",
+        "c": "Incorrect: Solidity uses static typing, not dynamic typing.",
+        "d": "Incorrect: Solidity supports structs for grouping variables."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
     }
   ]
 }

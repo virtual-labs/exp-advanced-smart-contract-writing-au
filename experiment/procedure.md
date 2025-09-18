@@ -1,40 +1,58 @@
 ### Procedure
-In this simulation, we are exploring the Solidity compiler to perform simple tasks using Solidity and to learn and explore structs, arrays, and mappings.
+In this simulation, we are exploring the Solidity compiler to perform simple tasks and learn about 
+**if and looping structures**, and **classes and objects**.
 
-1. **Create a Solidity File:**  
-   To create a Solidity file, click on the icon indicated in the Remix IDE. When prompted, enter the desired filename with the extension `.sol`. Then, press **Control + Enter** to confirm.
-![Image Description](./images/bc1.png)
-2. **File Creation Confirmation:**  
-   Once the file is successfully created, you will see it appear in the file explorer.
+**Step 1**: On the top-right side, click the **New File** button to start creating a Solidity file.  
+<div><img src="images/step1new.png" alt=""></div>
+
+**Step 2**: Enter the filename with the extension **.sol** (example: `test.sol`) and press **Enter**.  
+<div><img src="images/step2entername.png" alt=""></div>
+
+**Step 3:** After creating the file, a window will appear prompting you to select a tutorial. Choose one of the following options: **Struct**, **Array**, or **Mapping**.
+<div><img src="images/step3select.png" alt=""></div>
+
+**Step 4:** If you select **Mapping**, you will be redirected directly to the **Mapping Exercise**. Carefully read all the given instructions, complete the exercise, and then click the **Run & Compile** button.
+
+<div><img src="images/step4deploy.png" alt=""></div>
+
+**Step 5**: Once your contract is **successfully compiled**, the **Deployment Panel** will be activated. From there, select your contract (e.g., `test.sol`) in the dropdown and click **Deploy Contract**. After deployment, you will see the **Mapping Deployed Contract**.  
+<div><img src="images/step5deploycontract.png" alt=""></div>
+
+**Step 6**: After deployment, the **Mapping Contract** will be shown inside the **Deployed Contract** panel.  
+You can now interact with it by:  
+- Entering an **Address** and an **Amount**, then clicking **Set Balance** to store the value.  
+- Using **Get Balance** to retrieve the balance of a specific address.  
+- Exploring **All Accounts** and **Transaction Log** for additional interactions and validation.  
+ 
+
+If you want to try another tutorial, click the **Files** tab, create a new file, select a different tutorial, and then deploy it.  
+<div><img src="images/step6compare.png" alt=""></div>
 
 
-3. **Select a Tutorial:**  
-   You can now observe three options indicating tutorials on **structs**, **arrays**, and **mappings**. Select one of the tutorials to learn the syntax.
-![Image Description](./images/bc2.png)
-4. **Review Struct Syntax:**  
-   Observe the syntax of structs provided in the tutorial and carefully read the instructions.
-![Image Description](./images/image.png)
-5. **Deploy the Contract:**  
-   Click the **Deploy** icon to deploy the smart contract. Make sure the code is complete and error-free before deploying.
-![Image Description](./images/bc3.png)
-6. **Complete the Exercise:**  
-   To proceed, complete the exercise by filling in the blanks in the code as instructed.
-![Image Description](./images/bc4.png)
-7. **Observe and Continue:**  
-   Review the corrected code after completing the exercise. Click the **Next** button to continue with the tutorial.
 
 
-![Image Description](./images/bc5.png)
-8. **Final Deployment:**  
-   After completing the exercise, go to the **Deploy** icon and deploy the final smart contract. Ensure all tasks are completed as per the instructions in the tutorial.
-![Image Description](./images/bc7.png)
-9. **Click the "Hands-on" Button:**  
-   Once you are ready, click the Hands-on button to begin the practical exercise. This will help you apply the concepts you’ve learned through interactive tasks.
+<u><h4>Hands-On Exercise</h4></u>
 
-10. **Observe and Learn the Topics Before Doing Hands-On:**  
-    Before beginning the hands-on session, take time to understand the provided topics. A clear grasp of the concepts will help you perform the tasks more effectively.
-    ![Image Description](./images/bc01.png)
+1. After completing the exercise, go to the <b>Hands-On</b> section.  
+Click the <b>Hands-On</b> button available at the top to start the practical task.  
+<div><img src="images/step4deploy.png" alt=""></div>
 
-11. **Complete the Hands-On Exercise and Validate:**  
-   After completing the hands-on exercise, click the Validate button to check your work. This will verify if your implementation is correct and confirm its accuracy.
-    ![Image Description](./images/bc02.png)
+2. Before starting the Hands-On experiment, first go through the section <b>Learn Some Important Topics</b>.
+<div><img src="images/step10handsontest.png" alt=""></div>  
+Click the <b>Next</b> button to explore key concepts such as <b>Datatypes</b>, <b>Functions</b>, <b>Events</b>, <b>Modifiers</b>, and <b>Constructors</b>.  
+After completing this section, click the <b>Hands-On</b> button to begin the experiment.  
+<div><img src="images/step10.1.png" alt=""></div>
+
+3. In the Hands-On section, complete all the given tasks by selecting the correct stack and finishing the exercise.  
+<div><img src="images/step11handsonselect.png" alt=""></div>
+After successfully completing the Hands-On activity, click the <b>Get Code</b> button to view and download the solution code.  
+<div><img src="images/step12handsonfinal.png" alt=""></div>
+
+4. After clicking the <b>Get Code</b> button, view the complete final code of your Solidity program.  
+This code represents the full solution for the Hands-On experiment.  
+<div><img src="images/step13final.png" alt=""></div>
+
+
+<h5>End of Procedure</h5>
+<p>You have successfully completed the Solidity simulation experiment.  
+From creating a new file, learning important concepts, deploying contracts, to completing the Hands-On section and viewing the final code — the procedure is now complete.</p>
