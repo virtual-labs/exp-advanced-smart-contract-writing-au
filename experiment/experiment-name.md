@@ -1,1 +1,1 @@
-## Advanced Smart Contract Writing using Solidity
+## Advanced Smart Contract Writing
