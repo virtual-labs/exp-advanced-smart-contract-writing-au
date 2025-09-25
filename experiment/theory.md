@@ -1,4 +1,4 @@
-### Theory
+
 
 Solidity is a high-level, contract-oriented programming language specifically designed for writing smart contracts on the Ethereum blockchain.  
 It enables developers to define logic, rules, and data structures for decentralized applications (dApps). Its syntax is similar to JavaScript, making it 
