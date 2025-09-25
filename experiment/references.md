@@ -1,4 +1,4 @@
-### References
+
 
 1. [Solidity Documentation – Introduction to Solidity](https://docs.soliditylang.org/en/latest/)  
    *Official documentation for Solidity, providing comprehensive information on the language's features and syntax.*
