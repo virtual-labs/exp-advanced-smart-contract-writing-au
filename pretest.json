@@ -1,0 +1,107 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "What is a dynamic array in Solidity?",
+      "answers": {
+        "a": "An array with a fixed size",
+        "b": "An array that can grow or shrink dynamically",
+        "c": "An array that only stores strings",
+        "d": "An array that cannot store integers"
+      },
+      "explanations": {
+        "a": "Incorrect: A dynamic array doesn't have a fixed size.",
+        "b": "Correct: A dynamic array can grow or shrink dynamically.",
+        "c": "Incorrect: A dynamic array can store any supported data type, not just strings.",
+        "d": "Incorrect: A dynamic array can store integers if defined with type `uint` or `int`."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is a struct in Solidity?",
+      "answers": {
+        "a": "A data type to store single variables",
+        "b": "A contract that inherits from another contract",
+        "c": "A user-defined data type for grouping variables",
+        "d": "A predefined library in Solidity"
+      },
+      "explanations": {
+        "a": "Incorrect: Structs are used to group multiple variables, not single variables.",
+        "b": "Incorrect: This describes inheritance, not structs.",
+        "c": "Correct: A struct is a user-defined data type to group related variables.",
+        "d": "Incorrect: Structs are not libraries."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the key-value structure used in Solidity?",
+      "answers": {
+        "a": "Array",
+        "b": "Struct",
+        "c": "Mapping",
+        "d": "Library"
+      },
+      "explanations": {
+        "a": "Incorrect: Arrays store values sequentially, not in key-value pairs.",
+        "b": "Incorrect: Structs group variables but don't use key-value pairs.",
+        "c": "Correct: Mappings use key-value pairs to store data.",
+        "d": "Incorrect: Libraries provide reusable code but aren't key-value structures."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which tool is commonly used to write and deploy Solidity smart contracts?",
+      "answers": {
+        "a": "Remix IDE",
+        "b": "Visual Studio Code only",
+        "c": "Truffle without Remix",
+        "d": "Python interpreter"
+      },
+      "explanations": {
+        "a": "Correct: Remix IDE is widely used for writing, compiling, and deploying Solidity contracts.",
+        "b": "Incorrect: VS Code can be used but requires additional setup, unlike Remix.",
+        "c": "Incorrect: Truffle is a framework, but Remix IDE is simpler for beginners.",
+        "d": "Incorrect: Python is not used for compiling Solidity contracts."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "In Solidity, which keyword is used to define a new contract?",
+      "answers": {
+        "a": "struct",
+        "b": "mapping",
+        "c": "contract",
+        "d": "function"
+      },
+      "explanations": {
+        "a": "Incorrect: `struct` is used for defining custom data structures.",
+        "b": "Incorrect: `mapping` is used for key-value pairs.",
+        "c": "Correct: `contract` is used to define a new smart contract.",
+        "d": "Incorrect: `function` defines behavior inside a contract, not the contract itself."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following is a feature of Solidity?",
+      "answers": {
+        "a": "Event logging",
+        "b": "Automatic garbage collection",
+        "c": "Dynamic typing",
+        "d": "No support for structs"
+      },
+      "explanations": {
+        "a": "Correct: Solidity supports event logging for DApp communication.",
+        "b": "Incorrect: Solidity does not have garbage collection.",
+        "c": "Incorrect: Solidity uses static typing, not dynamic typing.",
+        "d": "Incorrect: Solidity supports structs for grouping variables."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    }
+  ]
+}
