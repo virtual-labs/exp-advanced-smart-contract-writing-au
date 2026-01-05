@@ -1,0 +1,107 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "How do you add a value to a dynamic array in Solidity?",
+      "answers": {
+        "a": "Using the `push` function",
+        "b": "By assigning a value directly to an index",
+        "c": "By calling the `addValue` library",
+        "d": "By using the `insert` function"
+      },
+      "explanations": {
+        "a": "Correct: Use the `push` function to add a value to the end of a dynamic array.",
+        "b": "Incorrect: Direct assignment requires a valid index.",
+        "c": "Incorrect: There is no `addValue` library in Solidity.",
+        "d": "Incorrect: The `insert` function is not used in Solidity arrays."
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Which of the following correctly initializes a struct in Solidity?",
+      "answers": {
+        "a": "Person memory person = Person('Alice', 25);",
+        "b": "struct Person = Person('Alice', 25);",
+        "c": "Person public person = ('Alice', 25);",
+        "d": "Person public person = Person({name: 'Alice', age: 25});"
+      },
+      "explanations": {
+        "a": "Incorrect: The `memory` keyword is misplaced.",
+        "b": "Incorrect: This is not the correct syntax for initializing a struct.",
+        "c": "Incorrect: Missing the `Person` keyword in struct initialization.",
+        "d": "Correct: This is the proper way to initialize a struct using named parameters."
+      },
+      "correctAnswer": "d",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "What happens if you access a key in a mapping that doesn’t exist?",
+      "answers": {
+        "a": "It throws an error.",
+        "b": "It returns the default value of the value type.",
+        "c": "It creates the key-value pair automatically.",
+        "d": "It removes the key from the mapping."
+      },
+      "explanations": {
+        "a": "Incorrect: Accessing a non-existent key doesn't throw an error.",
+        "b": "Correct: Mappings return the default value of the value type (e.g., `0` for integers).",
+        "c": "Incorrect: The key-value pair is not created automatically.",
+        "d": "Incorrect: Accessing a key doesn't remove it from the mapping."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Which feature of Remix IDE allows step-by-step execution of smart contracts to identify issues?",
+      "answers": {
+        "a": "Compiler",
+        "b": "Debugger",
+        "c": "File Explorer",
+        "d": "Plugin Manager"
+      },
+      "explanations": {
+        "a": "Incorrect: The compiler only translates Solidity into bytecode.",
+        "b": "Correct: The debugger allows step-by-step execution to track variables and fix issues.",
+        "c": "Incorrect: The file explorer is for file management.",
+        "d": "Incorrect: Plugins extend functionality but don’t provide debugging directly."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which Solidity feature is used to group multiple related variables into one unit?",
+      "answers": {
+        "a": "Mapping",
+        "b": "Array",
+        "c": "Struct",
+        "d": "Modifier"
+      },
+      "explanations": {
+        "a": "Incorrect: A mapping stores key–value pairs.",
+        "b": "Incorrect: An array stores sequential data of the same type.",
+        "c": "Correct: A struct groups different data types together as a custom type.",
+        "d": "Incorrect: A modifier is used for access control and validation."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following is NOT a feature of Solidity?",
+      "answers": {
+        "a": "Static Typing",
+        "b": "Inheritance",
+        "c": "Event Logging",
+        "d": "Automatic Garbage Collection"
+      },
+      "explanations": {
+        "a": "Incorrect: Solidity enforces static typing.",
+        "b": "Incorrect: Solidity supports inheritance for contracts.",
+        "c": "Incorrect: Solidity allows event logging for DApp communication.",
+        "d": "Correct: Solidity does not have automatic garbage collection; storage must be managed explicitly."
+      },
+      "correctAnswer": "d",
+      "difficulty": "intermediate"
+    }
+  ]
+}
