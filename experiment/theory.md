@@ -1,8 +1,7 @@
 
 
 Solidity is a high-level, contract-oriented programming language specifically designed for writing smart contracts on the Ethereum blockchain.  
-It enables developers to define logic, rules, and data structures for decentralized applications (dApps). Its syntax is similar to JavaScript, making it 
-accessible for developers with basic programming experience.
+It enables developers to define logic, rules, and data structures for decentralized applications (dApps). Its syntax is similar to JavaScript, making it accessible for developers with basic programming experience.
 
 A **smart contract** is a self-executing program stored on the blockchain. Once deployed, it automatically executes predefined 
 rules, enabling operations such as transactions, record-keeping, and data validation without intermediaries.  
