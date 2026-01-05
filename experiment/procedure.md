@@ -1,58 +1,79 @@
 
-In this simulation, we are exploring the Solidity compiler to perform simple tasks and learn about 
-**if and looping structures**, and **classes and objects**.
+This simulation introduces **advanced smart contract writing** by demonstrating the implementation of **structs**, **arrays**, and **mappings** to organize and manage on-chain data. Learners will define structured data, store multiple records, and interact with deployed smart contracts.
 
-**Step 1**: On the top-right side, click the **New File** button to start creating a Solidity file.  
-<div><img src="images/step1new.png" alt=""></div>
+#### Step 1: Select a Tutorial (Struct.sol)
 
-**Step 2**: Enter the filename with the extension **.sol** (example: `test.sol`) and press **Enter**.  
-<div><img src="images/step2entername.png" alt=""></div>
+- Click the **Files** button in the left sidebar.
+- Under the **Contracts** section, select **`Struct.sol`**.
+- The **Advanced Smart Contract Development** welcome screen is displayed, confirming the tutorial is loaded.
 
-**Step 3:** After creating the file, a window will appear prompting you to select a tutorial. Choose one of the following options: **Struct**, **Array**, or **Mapping**.
-<div><img src="images/step3select.png" alt=""></div>
+<div><img src="images/intro.png" alt=""></div>
 
-**Step 4:** If you select **Mapping**, you will be redirected directly to the **Mapping Exercise**. Carefully read all the given instructions, complete the exercise, and then click the **Run & Compile** button.
+#### Step 2: Review Logic and Flowchart
 
-<div><img src="images/step4deploy.png" alt=""></div>
+- After selecting `Struct.sol`, the **Struct – Logic** page opens.
+- Observe the interactive flowchart that visually represents the conditional execution flow:
+  - You can drag the canvas to move the flowchart.
+  - Scroll to zoom in or out for better visibility.
+- Click **Proceed to Exercise** after understanding the execution flow.
 
-**Step 5**: Once your contract is **successfully compiled**, the **Deployment Panel** will be activated. From there, select your contract (e.g., `test.sol`) in the dropdown and click **Deploy Contract**. After deployment, you will see the **Mapping Deployed Contract**.  
-<div><img src="images/step5deploycontract.png" alt=""></div>
+<div><img src="images/step1.png" alt=""></div>
 
-**Step 6**: After deployment, the **Mapping Contract** will be shown inside the **Deployed Contract** panel.  
-You can now interact with it by:  
-- Entering an **Address** and an **Amount**, then clicking **Set Balance** to store the value.  
-- Using **Get Balance** to retrieve the balance of a specific address.  
-- Exploring **All Accounts** and **Transaction Log** for additional interactions and validation.  
- 
+#### Step 3: Define the Student Struct (Exercise – Question 1)
 
-If you want to try another tutorial, click the **Files** tab, create a new file, select a different tutorial, and then deploy it.  
-<div><img src="images/step6compare.png" alt=""></div>
+- The **Struct – Exercise** panel appears on the right side of the screen.
+- **Question 1** asks you to define a struct named Student.
+- Enter the required `struct` keyword to complete the struct definition as shown.
+- Click the **Next** button to proceed to the next exercise.
 
+<div>
+  <img src="images/step2.png" alt="Define Student Struct Exercise">
+</div>
 
+#### Step 4: Declare the Student Array (Exercise – Question 2)
 
+- **Question 2** asks you to declare an array of type `Student`.
+- Add the following declaration to store multiple student records:
 
-<u><h4>Hands-On Exercise</h4></u>
+   ```solidity
+   Student[] public students;
+   ```
 
-1. After completing the exercise, go to the <b>Hands-On</b> section.  
-Click the <b>Hands-On</b> button available at the top to start the practical task.  
-<div><img src="images/step4deploy.png" alt=""></div>
+- Click **Next** to proceed.
 
-2. Before starting the Hands-On experiment, first go through the section <b>Learn Some Important Topics</b>.
-<div><img src="images/step10handsontest.png" alt=""></div>  
-Click the <b>Next</b> button to explore key concepts such as <b>Datatypes</b>, <b>Functions</b>, <b>Events</b>, <b>Modifiers</b>, and <b>Constructors</b>.  
-After completing this section, click the <b>Hands-On</b> button to begin the experiment.  
-<div><img src="images/step10.1.png" alt=""></div>
+<div><img src="images/step3.png" alt=""></div>
 
-3. In the Hands-On section, complete all the given tasks by selecting the correct stack and finishing the exercise.  
-<div><img src="images/step11handsonselect.png" alt=""></div>
-After successfully completing the Hands-On activity, click the <b>Get Code</b> button to view and download the solution code.  
-<div><img src="images/step12handsonfinal.png" alt=""></div>
+#### Step 5: Implement the addStudent Function (Exercise – Question 3)
 
-4. After clicking the <b>Get Code</b> button, view the complete final code of your Solidity program.  
-This code represents the full solution for the Hands-On experiment.  
-<div><img src="images/step13final.png" alt=""></div>
+- **Question 3** requires implementing the `addStudent` function.
+- Click **Run & Compile**.
+- If the code is correct, the compilation will succeed.
 
+<div><img src="images/step4.png" alt=""></div>
 
-<h5>End of Procedure</h5>
-<p>You have successfully completed the Solidity simulation experiment.  
-From creating a new file, learning important concepts, deploying contracts, to completing the Hands-On section and viewing the final code — the procedure is now complete.</p>
+#### Step 6: Deploy the Smart Contract
+
+- After successful compilation, the Smart Contract Deployment panel becomes active.
+- Select `Struct.sol` from the contract dropdown.
+- Click **Deploy Contract**.
+- A Deployed Contract section appears, confirming successful deployment.
+
+<div><img src="images/step5.png" alt=""></div>
+
+#### Step 7: Interact with the Deployed Contract
+
+- In the Student Struct Interface:
+  - Enter a Name.
+  - Enter an Age.
+  - Click **Add Student** to store the data on-chain.
+- Use **Get Student** to retrieve stored student details.
+- Observe the returned values and event logs.
+
+<div><img src="images/step6.png" alt=""></div>
+
+#### Continuing with the Remaining Smart Contract
+
+After successfully completing the Struct tutorial, repeat the same procedure for the remaining tutorials:
+
+- Select **Array.sol** to practice working with dynamic and fixed-size arrays, including looping constructs such as for and while loops.
+- Select **Mapping.sol** to explore key-value storage, advanced mapping patterns, and their use in creating efficient data retrieval structures.
