@@ -14,3 +14,11 @@
 
 5. [Ethereum Foundation – Smart Contract Best Practices](https://ethereum.org/en/developers/docs/smart-contracts/)  
    *Guidelines and be*
+
+
+6. [Blockchain Networking – IBM Blockchain Guide](https://www.ibm.com/topics/blockchain)
+   *Provides an overview of how blockchain networks operate, including node interaction and distributed ledger behavior.*
+
+7. [Ethereum Yellow Paper – Gavin Wood](https://ethereum.github.io/yellowpaper/paper.pdf)
+   *The formal specification of the Ethereum protocol describing the behavior of the blockchain network.*
+
